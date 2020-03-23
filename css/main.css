@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+*{ font-family: 'Raleway', sans-serif; }
+html, body {
+    /* height: 100%; */
+    margin-top: 150px;
+    padding:0;
+}
+
+.spacer{ margin-top:50px;}
+/* .spacer-bot{ margin-bottom:100px;} */
+
+.btn-crimson {
+    color: #fff!important;
+    background-color:crimson!important;
+    border-color: crimson!important;
+}
+
+.black-line{
+  width:90%;
+  height:2px;
+  background-color: #333;
+}
+
+#client-details{ position: fixed; }
+
+#client-details i {color: #fff;padding-right: 15px;  }
+
+.card { border: none!important;}
+
+.card-header{ border: none!important; }
+
+
+.item-menu{
+  margin: 0.5rem;
+  align-self: center;
+}
+
+.item-buy{
+ align-self: center;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: crimson; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .tagline{
+      margin-top: 10px;
+      color:#333;    
+  }
+
+  .tagline-header{
+      color:#333;
+      font-weight: bold;
+  }
+
+  .navbar ul li a {
+      /* font-weight: bold; */
+      text-transform: uppercase;
+  }
+
+  .overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .mast-head{
+      display: block;
+      position: relative;
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      padding: 2px;
+     }
+
+  .mast-head-line{
+    display: block;
+    position: absolute;
+    background-color: black;
+    top:0;
+    left:5px;
+    width:50%;
+    height: 5px;  
+  }
+
+  .list-group-item-nav{ 
+    background-color: crimson; 
+    padding: .75rem 2.5rem;
+    list-style: none;
+    border-bottom:1px dotted #fff;
+  }
+
+  .client-nav {color: #fff;}
+
+  .client-nav:hover{
+      color:#333;
+      text-decoration: none;
+  }
+
+  .client-logo img { 
+    border-radius: 50%;
+  }
+
+#navbar{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 90px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+
+.navbar ul li a{
+font-weight: bold;
+}
+
+.navbar{
+      border-top: 5px solid #333;
+      border-bottom: 1px solid #333;
+}
+
+
+.navbar-brand{
+    font-size: 3rem!important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand small {
+    display:block;
+    font-size:0.9rem;
+  }
+  .card{
+      position:relative;
+      
+  }
+
+  .card-img-top{
+      position: relative;
+      width:50%;
+  }
+ 
+  .img-fp{
+    display: block;
+    width:100%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+
+
+  .card-img-top:hover .overlay{
+      opacity: 0.7;
+  }
+
+  
+  /* footer{
+   width: 100%;
+   height: 150px;
+   background-color: #333;
+   color: white;
+   text-align: center;
+  } */
+
+
+  footer{
+    display: flex!important;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+}
+
+.item-social{
+    align-self: center;
+}
+
+.item-company{
+    align-self: center;
+}
+
+  
+.social-icons-list li a{
+    display: block;
+    padding: 4px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.social-color-facebook{
+  background-color: #4862a3;
+}
+
+.social-color-twitter {
+  background-color: #55acee;
+}
+
+.social-color-youtube {
+  background-color: #cc1e1f;
+}
+
+.social-color-linkedin {
+  background-color: #0077b5;
+}
+
+.social-color-instagram {
+  background-color: #d8226b;
+}
+
+.profile-pic img{
+  border-radius: 50%;
+  margin-top: 25px;
+ 
+}
+
+h3 a { color:#333; }
+h3 a:hover { color:crimson; }
+
+  @media(max-width:900px){
+    #client-details{ position: relative; }
+     html, body{
+          margin-top:75px!important;
+        }
+
+    
+  }
+
+  @media(max-height: 375px){
+   
+  }
+
+
+
+  @media(max-width:568px){
+
+    html, body{
+      margin-top:75px!important;
+    }
+
+    footer{
+      display: flex;
+      flex-flow: wrap row;
+      text-align: center;
+    }
+ 
+  
+    
+    
+  }
+
+
+
+
+
+  @media(max-width:350px){
+      
+  }
+
+  
+
+  
